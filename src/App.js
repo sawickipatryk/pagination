@@ -1,16 +1,11 @@
 import React from 'react'
 
-const array = [
-  {
-    id: 0,
-    title: 'title'
-  }
-]
+import OurBlogs from './Components/OurBlogs'
 
 export const App = () => {
   return (
     <>
-
+      <OurBlogs/>
     </>
   )
 }
